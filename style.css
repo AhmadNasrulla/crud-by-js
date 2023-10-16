@@ -1,0 +1,65 @@
+/* all styles are here */
+
+#div0
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+input
+{
+    height: 30px;
+    width: 80%;
+    font-size: 16px;
+}
+::placeholder
+{
+    font-size: 16px;
+}
+  #div 
+  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between; /* This will separate text and buttons */
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+li text {
+    flex-grow: 2; /* Allow text to take up available space */
+}
+
+li button {
+    margin-left: 10px; /* Add some spacing between buttons */
+}
+  #edit
+  {
+    align-items: end;
+  }
+  
+  
+  
